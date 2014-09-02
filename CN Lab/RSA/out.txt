@@ -1,0 +1,9 @@
+
+Enter values for p and q :
+p=3 q=11
+n=33 t=20
+e=7 d=3
+
+MSG: c
+Encrypted: 0x4c0eb8
+DecryptedL ררL
