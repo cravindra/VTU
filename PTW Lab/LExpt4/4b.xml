@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="4b.xsl"?>
+
+<student-information>
+	<student>
+		<student>
+		<usn>1BG11CS027</usn>
+		<Name>Chirag Ravindra</Name>
+		<N-college>BNMIT</N-college>
+		<year>2011</year>
+		<branch>CSE</branch>
+		<email>abc@xyz.com</email>
+	</student>
+	
+</student-information>

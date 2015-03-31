@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Stacking</title>
+		<link rel="stylesheet" type="text/css" href="3a.css"/>
+		<script type="text/javascript">
+			function moveTop(toTop)
+			{
+				document.getElementById(toTop).style.zIndex='100';
+			
+			}
+			function restore()
+			{
+				document.getElementById("p1").style.zIndex='10';
+				document.getElementById("p2").style.zIndex='20';
+				document.getElementById("p3").style.zIndex='30';
+			}
+	
+		</script>
+	</head>
+	<body>
+		<p id="p1"  onmouseover="moveTop('p1')" onmouseout="restore()">Bulbasaur Ivysaur Venusaur Charmander Charmeleon Charizard Squirtle Wartortle Blastoise Caterpie Metapod Butterfree Weedle Kakuna Beedrill Pidgey Pidgeotto Pidgeot Rattata Raticate Spearow Fearow Ekans Arbok Pikachu Raichu Sandshrew Sandslash Nidoran Nidorina</p>
+		<p id="p2"  onmouseover="moveTop('p2')" onmouseout="restore()">Chikorita Bayleef Meganium Cyndaquil Quilava Typhlosion  Totodile Croconaw Feraligatr Sentret Furret Hoothoot Noctowl Ledyba Ledian Spinarak Ariados Crobat Chinchou Lanturn Pichu Cleffa Igglybuff Togepi Togetic Natu Xatu Mareep Flaaffy</p>
+		<p id="p3"  onmouseover="moveTop('p3')" onmouseout="restore()">Treecko Grovyle Sceptile Torchic Combusken Blaziken Mudkip Marshtomp Swampert Poochyena Mightyena Zigzagoon Linoone Wurmple Silcoon Beautifly Cascoon Dustox Lotad Lombre Ludicolo Seedot Nuzleaf Shiftry Taillow Swellow Wingull Pelipper Ralts Kirlia</p>
+	</body>
+</html>

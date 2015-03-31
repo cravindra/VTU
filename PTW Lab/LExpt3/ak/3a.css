@@ -1,0 +1,29 @@
+p{
+	padding:10px;
+	border: solid thick;
+	max-width:250px;
+	max-height:250px;
+}
+#p1{
+		
+		position:absolute;
+		top:50px;
+		left:50px;
+		background-color:red;
+}
+
+#p2{
+		
+		position:absolute;
+		top:100px;
+		left:100px;
+		background-color:green;
+}
+
+#p3{
+		
+		position:absolute;
+		top:150px;
+		left:150px;
+		background-color:blue;
+}

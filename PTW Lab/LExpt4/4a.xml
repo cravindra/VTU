@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="4a.css"?>
+
+<student-information>
+	<student>
+		<usn>1BG11CS027</usn>
+		<Name>Chirag Ravindra</Name>
+		<N-college>BNMIT</N-college>
+		<year>2011</year>
+		<branch>CSE</branch>
+		<email>abc@xyz.com</email>
+	</student>
+	
+	<student>
+		<usn>1BG11CS031</usn>
+		<Name>Drithi H Deepak</Name>
+		<N-college>BNMIT</N-college>
+		<year>2011</year>
+		<branch>CSE</branch>
+		<email>def@xyz.com</email>
+	</student>
+	<student>
+		<usn>1BG11CS051</usn>
+		<Name>Akshaykumar.S.Mashalkar</Name>
+		<N-college>BNMIT</N-college>
+		<year>2011</year>
+		<branch>CSE</branch>
+		<email>ghi@xyz.com</email>
+	</student>
+	<student>
+		<usn>1BG11CS001</usn>
+		<Name>Aastha Deepak</Name>
+		<N-college>BNMIT</N-college>
+		<year>2011</year>
+		<branch>CSE</branch>
+		<email>jkl@xyz.com</email>
+	</student>
+</student-information>
